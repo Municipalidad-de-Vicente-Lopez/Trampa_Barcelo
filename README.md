@@ -3,7 +3,8 @@ La Trampas Barcelo  tiene como objetivo automatizar y optimizar la vigilancia de
 
 Configuración de la Raspberry PI:
 La raspberry tendrá que tener instalado el script "Barcelo_Script.py" y se debe configurar el sistema operativo de tal forma para que se ejecute al encender el sistema.
-Para realizar esta configuración seguirmeos los siguientes pasos: 
+Para realizar esta configuración seguirmeos los siguientes pasos...
+
 1)Ejecutaremos el siguiente comando en el bash:
 
 $ sudo crontab -e
