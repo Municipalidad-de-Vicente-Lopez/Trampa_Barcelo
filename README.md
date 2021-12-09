@@ -12,7 +12,7 @@ $ sudo crontab -e
 
 2)Editaremos el archivo incluyendo al final del mismo lo siguiente:
 
-@reboot sleep 10; python3 /home/pi/Desktop/WebCamScript.py
+@reboot sleep 10; python3 /home/pi/Desktop/Barcelo_Script.py
 
 Nota: para guardar y cerrar esto se debe presionar "CTRL + O".
 
