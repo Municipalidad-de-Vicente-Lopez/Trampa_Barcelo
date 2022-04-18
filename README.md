@@ -2,7 +2,7 @@
 La Trampas Barcelo  tiene como objetivo automatizar y optimizar la vigilancia de la presencia del mosquito Aedes Aegypti, para que el personal de fiscalización de plagas lo puedan hacer de manera ágil y eficaz.
 
 # Configuración de la Raspberry PI:
-# 1)Cronogramar el Script
+## 1)Cronogramar el Script
 La raspberry tendrá que tener instalado el script "Barcelo_Script.py" y se debe configurar el sistema operativo de tal forma para que se ejecute al encender el sistema.
 Para realizar esta configuración seguirmeos los siguientes pasos...
 
@@ -20,7 +20,7 @@ Nota: para guardar y cerrar esto se debe presionar "CTRL + O".
 
 $ sudo reboot now
 
-# 2)Vincular google drive a Raspberry Pi...
+## 2)Vincular google drive a Raspberry Pi...
 Fuente: https://raspberryparanovatos.com/tutoriales/rclone-google-raspberry-pi/
 Para vincular el servicio de alojamiento de archivos de Google Drive con la Raspberry PI, se usará la aplicación RClone de Linux.
 De esta manera se podrá vincular una carpeta del escritorio a la nube de Google, y allí almacenar todas las fotos que vaya sacando el sistema.
