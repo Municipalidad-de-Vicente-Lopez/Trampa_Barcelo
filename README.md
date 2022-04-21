@@ -1,5 +1,5 @@
 # Trampa_Barcelo
-La Trampas Barcelo  tiene como objetivo automatizar y optimizar la vigilancia de la presencia del mosquito Aedes Aegypti, para que el personal de fiscalización de plagas lo puedan hacer de manera ágil y eficaz.
+La Trampas Barcelo  tiene como objetivo automatizar y optimizar la vigilancia de la presencia del mosquito Aedes Aegypti, para que el personal de fiscalización de plagas lo puedan hacer de manera ágil y eficaz.[Link al White Paper](https://docs.google.com/presentation/d/1T5CdcLSzgRe8cQpoi_sPB4U170551NGOrZNykcJD0xU/edit?usp=sharing)
 
 # Configuración de la Raspberry PI:
 ## 1)Cronogramar el Script
@@ -61,3 +61,15 @@ ExecStop=/bin/rmdir %h/mnt/%i
 Restart=on-failure
 [Install]
 WantedBy=default.target
+# Entramiento
+## 1)Base de datos:
+Se encuentra en Google Drive, se recomienda que ustedes hagan una copia en su perfil, el formato esta en .zip ya que asi se espera en el google colab para poder trabajar, la base de datos se ira actualizando [clik](https://drive.google.com/file/d/1_DBkt7YAei8rbQK5Nzvezl0AF4G7x9RF/view?usp=sharing)
+## 2)Entrenamiento en la Nube
+Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo Barcelo_YOLOv5_Train.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fbeB71yD09WK2JG9P3Ladu9MEzQ2rQad?usp=sharing). Luego tiene que subir el archivo customcoco128drive.yaml al google drive dentro de la carpeta yolov5/data, lo que hace este coordinar la información del etiquetado con el entreamiento de Yolov5
+Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo 
+# Deploy
+## 1) Google Colab:
+Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1othxk0GPSFzQDGskWWky45uw4ohLIGYN?usp=sharing), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior que se llama best.pt
+Nota; este producto solo durara unas horas ya que esta limitado por el uso de google colab
+## 2) HugginFace:
+Si se desea tener un modelo en la nube de manera permanente y grauita le ofrecemos una versión en HuggingFace, el codigo se encuentra libre en la misma plataforma [Link Deploy](https://hf.space/embed/cesar/demoIAZIKA/+)
