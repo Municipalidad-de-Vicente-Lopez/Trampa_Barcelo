@@ -76,11 +76,10 @@ Si se desea tener un modelo en la nube de manera permanente y grauita le ofrecem
 # Citación
 Por favor si usas la base de datos o el codigo 
 @article{Trampas Barceló,
-  title = {Recipe1M+: Detección y monitereo a tiempo real del mosquito Aedes aegypti},
+  title = {Trampas Barceló: Detección y monitereo a tiempo real del mosquito Aedes aegypti},
   author = {Riat, César  and Schieder, Mario },
   
   year = {2021}
 }
 
 
-}
