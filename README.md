@@ -75,14 +75,14 @@ Nota; este producto solo durara unas horas ya que esta limitado por el uso de go
 Si se desea tener un modelo en la nube de manera permanente y grauita le ofrecemos una versión en HuggingFace, el codigo se encuentra libre en la misma plataforma [Link Deploy](https://hf.space/embed/cesar/demoIAZIKA/+)
 # Citación
 Por favor si usas la base de datos o el codigo 
------
+```
 @article{Trampas Barceló,
   title = {Trampas Barceló: Detección y monitereo a tiempo real del mosquito Aedes aegypti},
   author = {Riat, César  and Schieder, Mario },
   
   year = {2021}
 }
-----
+```
 # Contacto 
 Para mas información por favor contactarse a riat87@gmail.com
 
