@@ -1,5 +1,6 @@
 # Trampa_Barcelo
 La Trampas Barcelo  tiene como objetivo automatizar y optimizar la vigilancia de la presencia del mosquito Aedes Aegypti, para que el personal de fiscalización de plagas lo puedan hacer de manera ágil y eficaz.[Link al White Paper](https://docs.google.com/presentation/d/1T5CdcLSzgRe8cQpoi_sPB4U170551NGOrZNykcJD0xU/edit?usp=sharing)
+![DemoBarcelo](https://user-images.githubusercontent.com/34106936/164496704-9e4ce7b8-644e-4b4a-9edf-5d5fb1295925.gif)
 
 # Configuración de la Raspberry PI:
 ## 1)Cronogramar el Script
