@@ -39,7 +39,7 @@ Aquí tenemos que quitar la almohadilla (#) de la línea que pone user_allow_oth
 
 8)```mkdir -p ~/.config/systemd/user```
 9)```nano ~/.config/systemd/user/rclone@.service```
-```
+
 Copiar y pegar lo siguiente: 
 ```
 [Unit]
