@@ -25,20 +25,20 @@ $ sudo reboot now
 Fuente: https://raspberryparanovatos.com/tutoriales/rclone-google-raspberry-pi/
 Para vincular el servicio de alojamiento de archivos de Google Drive con la Raspberry PI, se usará la aplicación RClone de Linux.
 De esta manera se podrá vincular una carpeta del escritorio a la nube de Google, y allí almacenar todas las fotos que vaya sacando el sistema.
-```
-1)  sudo apt update && sudo apt upgrade -y
-2) sudo apt install fuse
-3) sudo nano /etc/fuse.conf
+
+1)  ```sudo apt update && sudo apt upgrade -y```
+2) ```sudo apt install fuse```
+3) ```sudo nano /etc/fuse.conf```
 Aquí tenemos que quitar la almohadilla (#) de la línea que pone user_allow_other. De forma que se quede como la imagen que tenemos a continuación.
 
-4)curl https://rclone.org/install.sh | sudo bash
-5)rclone config
+4)```curl https://rclone.org/install.sh | sudo bash```
+5)```rclone config```
 
-6)mkdir gdrive
-7)rclone mount –allow-non-empty gdrive: gdrive
+6)```mkdir gdrive```
+7)```rclone mount –allow-non-empty gdrive: gdrive```
 
-8)mkdir -p ~/.config/systemd/user
-9)nano ~/.config/systemd/user/rclone@.service
+8)```mkdir -p ~/.config/systemd/user```
+9)```nano ~/.config/systemd/user/rclone@.service```
 ```
 Copiar y pegar lo siguiente: 
 ```
