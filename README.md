@@ -82,7 +82,7 @@ Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrece
 Por favor si usas la base de datos o el código 
 ```
 @article{Trampas Barceló,
-  title = {Trampas Barceló: Detección y monitereo a tiempo real del mosquito Aedes aegypti},
+  title = {Trampas Barceló: Detección y monitoreo a tiempo real del mosquito Aedes aegypti},
   author = {Riat, César  and Schieder, Mario },
   
   year = {2021}
