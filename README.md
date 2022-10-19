@@ -77,7 +77,7 @@ Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/tra
 Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1othxk0GPSFzQDGskWWky45uw4ohLIGYN?usp=sharing), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior que se llama best.pt .
 Nota; este producto solo durará unas horas ya que esta limitado por el uso de google colab
 ## 2) HugginFace:
-Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://hf.space/embed/cesar/demoIAZIKA/+)
+Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://hf.space/embed/Municipalidad-de-Vicente-Lopez/Trampas_Barcelo/+)
 # Citación
 Por favor si usas la base de datos o el código 
 ```
