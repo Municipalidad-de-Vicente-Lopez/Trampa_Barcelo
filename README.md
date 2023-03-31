@@ -68,7 +68,7 @@ Restart=on-failure
 WantedBy=default.target
 # Entramiento
 ## 1)Base de datos:
-Se encuentra en Google Drive, se recomienda que ustedes hagan una copia en su perfil, el formato esta en .zip ya que asi se espera en el google colab para poder trabajar, prestar mucha atención al orden de los archivos en las carpetas, la base de datos se ira actualizando [clik](https://drive.google.com/file/d/1_DBkt7YAei8rbQK5Nzvezl0AF4G7x9RF/view?usp=sharing)
+Se encuentra en Google Drive, se recomienda que ustedes hagan una copia en su perfil, el formato esta en .zip ya que asi se espera en el google colab para poder trabajar, prestar mucha atención al orden de los archivos en las carpetas, la base de datos se ira actualizando [clik](https://drive.google.com/file/d/10ohbdxYRDGHW70bg5qVobBg_0VSZBalg/view?usp=sharing)
 ## 2)Entrenamiento en la Nube
 Se decidió usar google colab, debido a que porrpociona una maquina virtual gratuita por unas horas, subimos el archivo Barcelo_YOLOv5_Train.ipynb o pueden ingresar directamente a nuestro colab . Prestar Atención!!! tienen que desacargar el archivo de la base de datos y subirlo a su cuenta del Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fbeB71yD09WK2JG9P3Ladu9MEzQ2rQad?usp=sharing). Luego tiene que subir el archivo customcoco128drive.yaml al google drive dentro de la carpeta yolov5/data, lo que hace este coordinar la información del etiquetado con el entrenamiento de Yolov5 .
 Luego la red entrenada genera una archivo best.pt que se encuentra aqui runs/train/exp/weights/best.pt, hay que descargar el mismo 
